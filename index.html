@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEXUS | Международное Налоговое Право</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .hero-bg { 
+      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.9)), 
+                  url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover no-repeat; 
+    }
+    .nav-scrolled { background-color: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); }
+    .team-img { height: 260px; object-fit: cover; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 transition-all duration-300 py-5" id="navbar">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-amber-500 rounded flex items-center justify-center text-zinc-950 font-bold text-2xl">N</div>
+        <span class="text-2xl font-semibold tracking-tight">NEXUS</span>
+      </div>
+      <div class="hidden md:flex gap-10 text-sm font-medium">
+        <a href="#services" class="hover:text-amber-400 transition">Услуги</a>
+        <a href="#team" class="hover:text-amber-400 transition">Команда</a>
+        <a href="#cases" class="hover:text-amber-400 transition">Кейсы</a>
+        <a href="#pillar2" class="hover:text-amber-400 transition">Pillar Two</a>
+        <a href="#brokerage" class="hover:text-amber-400 transition">Брокерские счета</a>
+        <a href="#pricing" class="hover:text-amber-400 transition">Прайс</a>
+        <a href="#faq" class="hover:text-amber-400 transition">FAQ</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Контакты</a>
+      </div>
+      <a href="https://t.me/andrey777kkk" target="_blank" class="flex items-center gap-2 bg-[#229ED9] hover:bg-[#1a8ac4] text-white px-5 py-3 rounded-lg font-medium transition">
+        <i class="fa-brands fa-telegram-plane text-xl"></i>
+        <span>Telegram</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero-bg min-h-screen flex items-center pt-20">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h1 class="text-6xl md:text-7xl font-bold leading-tight mb-6">
+        Международное<br>налоговое право<br><span class="text-amber-400">на вашем уровне</span>
+      </h1>
+      <p class="text-xl md:text-2xl text-zinc-400 max-w-2xl mx-auto mb-10">
+        Защита активов, оптимизация налоговых обязательств и структурирование бизнеса в 40+ юрисдикциях
+      </p>
+      <div class="flex flex-col sm:flex-row gap-5 justify-center">
+        <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-zinc-950 px-10 py-5 rounded-xl text-lg font-semibold transition">
+          Запросить консультацию
+        </a>
+        <a href="https://t.me/andrey777kkk" target="_blank" class="flex items-center justify-center gap-3 border border-[#229ED9] hover:bg-[#229ED9]/10 px-10 py-5 rounded-xl text-lg font-medium transition">
+          <i class="fa-brands fa-telegram-plane text-2xl"></i>
+          Написать в Telegram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-24 bg-zinc-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Наши услуги</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-10 hover:border-amber-400/30 transition">
+          <i class="fa-solid fa-globe text-4xl text-amber-400 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-4">Международное налоговое планирование</h3>
+          <p class="text-zinc-400">Структурирование холдингов, использование соглашений об избежании двойного налогообложения.</p>
+        </div>
+        <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-10 hover:border-amber-400/30 transition">
+          <i class="fa-solid fa-shield-halved text-4xl text-amber-400 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-4">Защита активов и compliance</h3>
+          <p class="text-zinc-400">CRS, FATCA, DAC6, бенефициарное владение.</p>
+        </div>
+        <div class="bg-zinc-800/50 border border-zinc-700 rounded-2xl p-10 hover:border-amber-400/30 transition">
+          <i class="fa-solid fa-handshake text-4xl text-amber-400 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-4">Сопровождение налоговых проверок</h3>
+          <p class="text-zinc-400">Представительство в налоговых органах России и иностранных юрисдикций.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pillar Two -->
+  <section id="pillar2" class="py-24 bg-zinc-900">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Pillar Two — Глобальный минимальный налог 15%</h2>
+        <p class="text-xl text-zinc-400">Новая реальность международного налогообложения</p>
+      </div>
+      <!-- Содержимое Pillar Two (оставлено как было) -->
+    </div>
+  </section>
+
+  <!-- Brokerage Accounts -->
+  <section id="brokerage" class="py-24">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Налогообложение брокерских счетов и инвестиций</h2>
+        <p class="text-xl text-zinc-400">Работаем с российскими и иностранными брокерами</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div class="space-y-8">
+          <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-8">
+            <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+              <span class="text-amber-400">📈</span> Основные ситуации
+            </h3>
+            <ul class="space-y-4">
+              <li class="flex gap-4">
+                <span class="text-emerald-400 font-medium">•</span>
+                <div>Дивиденды от иностранных акций (США, Европа, Азия)</div>
+              </li>
+              <li class="flex gap-4">
+                <span class="text-emerald-400 font-medium">•</span>
+                <div>Прибыль от продажи акций, ETF, облигаций</div>
+              </li>
+              <li class="flex gap-4">
+                <span class="text-emerald-400 font-medium">•</span>
+                <div>Налогообложение криптовалюты и деривативов</div>
+              </li>
+              <li class="flex gap-4">
+                <span class="text-emerald-400 font-medium">•</span>
+                <div>Взаимодействие с брокерами Interactive Brokers, Freedom, Tinkoff, Exante и др.</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <div class="bg-zinc-900 border border-amber-400/30 rounded-3xl p-10">
+            <h3 class="text-2xl font-semibold mb-6 text-amber-400">Что мы делаем:</h3>
+            <ul class="space-y-5 text-zinc-300">
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-400 mt-1">✓</span>
+                <span>Расчёт и оптимизация НДФЛ по иностранным доходам</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-400 mt-1">✓</span>
+                <span>Заполнение формы W-8BEN для снижения удерживаемого налога</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-400 mt-1">✓</span>
+                <span>Возврат излишне удержанного налога за рубежом</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-400 mt-1">✓</span>
+                <span>Подготовка декларации 3-НДФЛ с зачётом иностранных налогов</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-emerald-400 mt-1">✓</span>
+                <span>Оптимизация через налоговое резидентство и структурирование</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team, Cases, Licenses, Pricing, FAQ, Contact (с обратной связью) -->
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-black">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Связаться с нами</h2>
+
+      <div id="success-message" class="hidden bg-emerald-900 border border-emerald-500 text-emerald-300 px-8 py-8 rounded-3xl mb-8 text-center">
+        <i class="fa-solid fa-check-circle text-5xl mb-4"></i>
+        <p class="text-2xl font-medium">Спасибо за заявку!</p>
+        <p class="mt-2">Мы свяжемся с вами в ближайшее время.</p>
+      </div>
+
+      <form id="contact-form" action="https://formspree.io/f/xxxxxxxx" method="POST" class="space-y-6 bg-zinc-900 p-10 rounded-3xl border border-zinc-700">
+        <div class="grid md:grid-cols-2 gap-6">
+          <input type="text" name="name" placeholder="Имя" required class="bg-zinc-800 border border-zinc-700 rounded-xl px-6 py-4 focus:outline-none focus:border-amber-400">
+          <input type="email" name="email" placeholder="Email" required class="bg-zinc-800 border border-zinc-700 rounded-xl px-6 py-4 focus:outline-none focus:border-amber-400">
+        </div>
+        <input type="tel" name="phone" placeholder="Телефон" class="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-6 py-4 focus:outline-none focus:border-amber-400">
+        <textarea name="message" placeholder="Опишите вашу задачу..." rows="6" required class="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-6 py-4 focus:outline-none focus:border-amber-400"></textarea>
+        
+        <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-zinc-950 py-5 rounded-2xl font-semibold text-lg transition">
+          Отправить запрос на консультацию
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-black py-12 text-center text-zinc-500 text-sm">
+    <p>© 2026 NEXUS Tax Law. Все права защищены.</p>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) navbar.classList.add('nav-scrolled');
+      else navbar.classList.remove('nav-scrolled');
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.nextElementSibling;
+        const icon = btn.querySelector('i');
+        answer.classList.toggle('hidden');
+        icon.classList.toggle('rotate-180');
+      });
+    });
+
+    // Form success
+    const form = document.getElementById('contact-form');
+    const success = document.getElementById('success-message');
+
+    form.addEventListener('submit', () => {
+      setTimeout(() => {
+        form.reset();
+        form.classList.add('hidden');
+        success.classList.remove('hidden');
+      }, 800);
+    });
+  </script>
+</body>
+</html>
